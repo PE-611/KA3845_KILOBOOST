@@ -1,0 +1,45 @@
+Change Component Footprint: Designator=VT1 Old Footprint=TO220 New Footprint=TO-220 HV
+Added Component: Designator=C1(HV CAP)
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.digikey.com/products/en/capacitors/film-capacitors/62?k=&pkeyword=&sv=0&pv2097=1958&sf=0&FV=fffc01ef%2C1f140000%2Cffe0003e%2Cffec6366&quantity=1&ColumnSort=1000011&page=1&stock=1&pageSize=25"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Impedance"; Value = "10.9mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Epcos"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "31.5x15 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "B32774D4106K000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = "-40...+105°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TypeCapacitor"; Value = "Film capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10?F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ValueManufacturerPartNumber"; Value = "Film capacitor, 10?F, 16êVDC, ±10%, 10.9mOhm, 31.5x15 mm, -40...+105°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "16êVDC"; VariantName = "[No Variations]"
+Added Component: Designator=R8(ÊÝÂ-1 case)
+Added Component: Designator=TR1(ALTR)
+Added Component: Designator=VD1(2CL75 DO 3x12)
+Added Component: Designator=X2(CON: KF301-5.0-2P)
+Add component (AddParameter): Name = "CommentText"; Value = ""Ðàçúåì""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CurrentMax"; Value = "10A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.chipdip.ru/product/dg350-3.5-02p-12"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Degson"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Multichannel"; Value = "2pin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "DG350-3.5-02P-14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "3.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TypeConnector"; Value = "Terminal connector"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ValueManufacturerPartNumber"; Value = "Terminal connector, 2pin, 3.5mm, 300VAC, 10A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VoltageMax"; Value = "300VAC"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC1_1 Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=NetC1_1 Pin=R8-1
+Added Pin To Net: NetName=VCC Pin=TR1-1
+Added Pin To Net: NetName=NetTR1_2 Pin=TR1-2
+Added Pin To Net: NetName=GND Pin=TR1-3
+Added Pin To Net: NetName=NetTR1_4 Pin=TR1-4
+Added Pin To Net: NetName=NetTR1_4 Pin=VD1-1
+Added Pin To Net: NetName=NetC1_1 Pin=VD1-2
+Added Pin To Net: NetName=NetR8_2 Pin=R8-2
+Added Pin To Net: NetName=NetR8_2 Pin=X2-1
+Added Net: Name=NetR8_2
+Added Member To Class: ClassName=Sheet1 Member=Component C1 Film capacitor, 10?F, 16êVDC, ±10%, 10.9mOhm, 31.5x15 mm, -40...+105°C
+Added Member To Class: ClassName=Sheet1 Member=Component R8 ÊÝÂ-0.5 200 ÌÎì
+Added Member To Class: ClassName=Sheet1 Member=Component TR1 ALTR
+Added Member To Class: ClassName=Sheet1 Member=Component VD1 2CL75
+Added Member To Class: ClassName=Sheet1 Member=Component X2 Terminal connector, 2pin, 3.5mm, 300VAC, 10A
+Added Room: Name=Sheet1
